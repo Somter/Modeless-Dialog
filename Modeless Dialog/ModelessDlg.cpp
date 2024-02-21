@@ -22,7 +22,7 @@ void CModelessDialog::Cls_OnClose(HWND hwnd)
 
 void CModelessDialog::SetText(LPCTSTR str)
 {
-    SetWindowText(hStatic, str);
+    SetWindowText(hStatic, str); 
 }
 
 BOOL CModelessDialog::Cls_OnInitDialog(HWND hwnd, HWND hwndFocus, LPARAM lParam)
